@@ -54,7 +54,7 @@
 
 ### Foram utilizados no desenvolvimento 💻
 
-    Java 17, Maven 3.9.5, VSCode 1.83.1, Insomnia.
+- Java 17, Maven 3.9.5, VSCode 1.83.1, Insomnia.
 
 <br>
 
