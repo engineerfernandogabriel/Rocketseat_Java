@@ -9,7 +9,7 @@
 
 <br>
 
-### To-do List 🚀
+### Gerenciador de Tarefas (To-do List) 🚀
 
 * Semana do Curso Online de Java da [Rocketseat](https://www.rocketseat.com.br/curso-gratuito-java).
 * Praticando meus conhecimentos em requisições HTTP com a criação de uma aplicação web Gerenciador de Tarefas (todolist). 
@@ -52,19 +52,19 @@
     
 <br>
 
-### Como usar o ToDoList? 💻
+### Foram utilizados no desenvolvimento 💻
 
 <br>
 
-    - Pré-Requisitos: 🔍 Java 17, Maven, VSCode, Rest Client.
-    - Testes: Postman, Insomnia ou Apidog.
+    - Java 17, Maven 3.9.5, VSCode 1.83.1, Insomnia.
    
 
 ### Tecnologias:
 
 <br>
 
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="40" height="40" /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="40" height="40" /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" width="40" height="40" /><img src="https://www.svgrepo.com/show/354051/maven.svg" width="40" height="40"/> 
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" width="40" height="40" /> <img src="https://www.svgrepo.com/show/354051/maven.svg" width="40" height="40"/>
+ 
 <br>
 
 ---
