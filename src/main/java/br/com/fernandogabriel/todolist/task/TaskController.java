@@ -24,17 +24,14 @@ public class TaskController {
 
         var currentData = LocalDateTime.now();
         if (currentData.isAfter(taskModel.getStartAt()) || currentData.isAfter(taskModel.getEndAt())) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST)
-                    .body("A data de início/término deve ser maior que a data atual.");
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("The start/end date must be greater than the current date.");
         }
         if (taskModel.getStartAt().isAfter(taskModel.getEndAt())) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST)
-                    .body("A data de início deve ser anterior a data de término.");
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("The start date must be before the end date.");
         }
 
         var task = this.taskRepository.save(taskModel);
-        return ResponseEntity.status(HttpStatus.OK)
-                .body(task);
+        return ResponseEntity.status(HttpStatus.OK).body(task);
     }
 
     @GetMapping("/")
@@ -46,17 +43,14 @@ public class TaskController {
     public ResponseEntity update(@RequestBody TaskModel taskModel, @PathVariable UUID taskId, HttpServletRequest request) {
         var task = this.taskRepository.findById(taskId).orElse(null);
         if (task == null) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST)
-                    .body("Tarefa não encontrada");
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Task not found");
         }
 
         if (!task.getIdUser().equals(request.getAttribute("idUser"))) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST)
-                    .body("O usuário não é dono dessa tarefa.");
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("The user does not own this task.");
         }
         Utils.copyNonNullProperties(taskModel, task);
         var taskUpdated = this.taskRepository.save(task);
-        return ResponseEntity.status(HttpStatus.OK)
-                .body(taskUpdated);
+        return ResponseEntity.status(HttpStatus.OK).body(taskUpdated);
     }
 }

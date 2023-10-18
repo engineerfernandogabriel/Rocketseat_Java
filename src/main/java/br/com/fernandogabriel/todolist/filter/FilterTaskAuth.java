@@ -34,25 +34,22 @@ public class FilterTaskAuth extends OncePerRequestFilter {
 
             var authString = new String(authDecode);
 
-
             String[] credentials = authString.split(":");
             var username = credentials[0];
             var password = credentials[1];
 
             var user = this.userRepository.findByUsername(username);
             if (user == null) {
-                response.sendError(HttpStatus.UNAUTHORIZED.value(), "Sem autorização.");
+                response.sendError(HttpStatus.UNAUTHORIZED.value(), "Without authorization.");
             } else {
                 var verified = BCrypt.verifyer().verify(password.toCharArray(), user.getPassword());
                 if (!verified.verified) {
-                    response.sendError(HttpStatus.UNAUTHORIZED.value(), "Sem autorização.");
+                    response.sendError(HttpStatus.UNAUTHORIZED.value(), "Without authorization.");
                 } else {
                     request.setAttribute("idUser", user.getId());
                     filterChain.doFilter(request, response);
                 }
             }
         }
-
-
     }
 }

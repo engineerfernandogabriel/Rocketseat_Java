@@ -1,20 +1,11 @@
 <h1 align="center">Curso Online de Java <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="40" height="40"/> [Rocketseat]</h1>
-<h3 align="center"> 📓 Período de 09 a 15/10/2023 📌 </h3>
+<h3 align="center"> Período de 09 a 15/10/2023 📌 </h3>
 
 <br>
 
-### Descrição do projeto  💻
+### Descrição do projeto - Gerenciador de Tarefas (To-do List) 💻
 
-<p>Aprendizado no desenvolvimento de aplicação web de um Gerenciador de Tarefas em Java com a mentoria de Daniele Leão.</p> 
-
-<br>
-
-### Gerenciador de Tarefas (To-do List) 🚀
-
-* Semana do Curso Online de Java da [Rocketseat](https://www.rocketseat.com.br/curso-gratuito-java).
-* Praticando meus conhecimentos em requisições HTTP com a criação de uma aplicação web Gerenciador de Tarefas (todolist). 
-
-<br>
+<p>Desenvolver habilidades em Java com Spring no desenvolvimento de uma aplicação web de Gerenciador de Tarefas com a mentoria de Daniele Leão.</p> 
 
 <br>
 
@@ -52,9 +43,13 @@
     
 <br>
 
-### Foram utilizados no desenvolvimento 💻
+### Desenvolvimento 💻
 
-- Java 17, Maven 3.9.5, VSCode 1.83.1, Insomnia 2023.4.0.
+- Java 17;
+- SpringBoot 3.0.11;
+- Maven 3.9.5;
+- VSCode 1.83.1;
+- Insomnia 2023.4.0.
 
 <br>
 
@@ -62,7 +57,7 @@
 
 <div style="text-align: center;">
 
- 🔗 Desenvolvido por [Fernando Gabriel (Dev Samurai)](https://www.linkedin.com/in/enginnerfernandogabriel/).
+ 🔗 Desenvolvido por [Fernando Gabriel ( Dev Samurai )](https://www.linkedin.com/in/enginnerfernandogabriel/).
 
 </div>
 
