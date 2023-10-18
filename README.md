@@ -5,7 +5,7 @@
 
 ### Descrição do projeto - Gerenciador de Tarefas (To-do List) 💻
 
-<p>Desenvolver habilidades em Java com Spring no desenvolvimento de uma aplicação web de Gerenciador de Tarefas com a mentoria de Daniele Leão.</p> 
+<p>Desenvolver habilidades na linguagem de programação Java com o framework Spring no desenvolvimento de uma aplicação web (Gerenciador de Tarefas) com a mentoria de Daniele Leão.</p> 
 
 <br>
 
